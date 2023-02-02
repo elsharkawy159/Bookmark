@@ -1,0 +1,36 @@
+.landing {
+    padding: 50px;
+
+    background-color: #eee;
+}
+.btn {
+    width: 80px !important;
+    height: 37px;
+}
+.fill {
+    display: none;
+}
+.newWeb {
+
+    height: 110px;
+
+    background-color: gray;
+}
+.links {
+    margin: 15px;
+}
+.bar {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(131, 130, 130);
+    margin-bottom: 10px;
+}
+.newWeb{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-image:linear-gradient(#eee, white);
+}
+.icon {
+    width: 40px;
+}

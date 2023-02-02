@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./icon.png">
+</head>
+<body>
+    <div class="container">
+        <h3 class="mt-5 mb-5 ms-3 text-black-50 fw-bold"><img src="./icon.png" class="icon" alt=""> Bookmarker</h3>
+        <div class="bar"></div>
+        <div class="landing row text-center m-3">
+            <h4 class="fw-bold mb-5">Bookmark your favorite sites</h4>
+
+            <div class="mb-4">
+                <label for="siteName" class="form-label fw-bold">Site Name</label>
+                <input type="text" class="form-control p-1" id="siteName" required placeholder="Bookmark Name">
+            </div>
+            <div class="mb-4">
+                <label for="siteURL" class="form-label fw-bold">Site URL</label>
+                <input type="url" class="form-control p-1" id="siteURL" required placeholder="Website URL">
+            </div>
+            <button onclick="addbookmark()" type="submit" class="btn btn-primary col-md-1 m-auto">Submit</button>
+            <p id="fill" class="fill text-danger mt-3 mb-0">Please fill the above inputs</p>
+
+        </div>
+        <div class="links row">
+        <div id="link" class="link p-0 mb-3">
+
+        </div>
+    </div>
+    <div class="bar"></div>
+    <p class="fw-bold text-black-50 p-3">© 2019 Bookmarker Inc.</p>
+    </div>
+
+
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
